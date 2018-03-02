@@ -15,4 +15,19 @@ The Pharo-MCP3008 can be loaded and used after the setup is complete.
 
 # Usage
 
+A simple example can be executed in the MCP3008Example class: 
+```
+MCP3008Example deviceReadExample
+```
+Multiple MCP3008 devices can be attached to the pi. The first one is the device 0:
 
+```
+device := MCP3008Device index: 0.
+
+```
+Each device has 8 channels, indexed from 0 to 7. A simple read to the channel index will provide the analog value, if any input device is connected:
+
+```
+device read: 2.
+```
+Note that for now, the recovered value is a string, and must be converted at the application level if it needs to be used as a float value.
