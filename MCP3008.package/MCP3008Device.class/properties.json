@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "StevenCostiou 3/2/2018 10:52",
+	"super" : "Object",
+	"category" : "MCP3008",
+	"classinstvars" : [
+		"devices"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"device",
+		"channels"
+	],
+	"name" : "MCP3008Device",
+	"type" : "normal"
+}

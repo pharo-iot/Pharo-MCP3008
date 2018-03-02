@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "StevenCostiou 3/2/2018 10:56",
+	"super" : "Object",
+	"category" : "MCP3008",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"chanIndex",
+		"physicalPath"
+	],
+	"name" : "MCP3008Channel",
+	"type" : "normal"
+}
