@@ -7,5 +7,5 @@ Class {
 { #category : #baselines }
 BaselineOfMCP3008 >> baseline: spec [
 	<baseline>
-	spec for: #common do: [ spec package: 'Pharo-MCP3008' ]
+	spec for: #common do: [ spec package: 'MCP3008' ]
 ]
